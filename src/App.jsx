@@ -3,6 +3,7 @@ import './App.css'
 import Particles from 'react-particles'
 import { tsParticles } from "tsparticles-engine";
 import Particle from './components/Particle'
+import TextComp from './components/TextComp'
 
 // const tsParticles = require("tsparticles-engine");
 
@@ -12,7 +13,9 @@ function App() {
   return (
     <>
     
+    
     <Particle />
+    <TextComp />
     
     </>
   )
