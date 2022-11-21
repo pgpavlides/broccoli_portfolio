@@ -64,7 +64,7 @@ export default function Particle(props) {
                         distance: 100,
                         enable: true,
                         opacity: 0.5,
-                        width: 1,
+                        width: 2,
                     },
                     collisions: {
                         enable: true,

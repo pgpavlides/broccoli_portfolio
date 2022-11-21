@@ -1,7 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); */
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
-.texthello {
+/* .texthello {
     font-family: 'Press Start 2P', cursive;
     
     font-size: 50px;
@@ -12,7 +12,7 @@
     transform: translate(-50%, -50%);
     text-align: center; 
     user-select: none;  
-}
+} */
 
 
 
@@ -34,6 +34,7 @@ p {
   align-items: center;
   justify-content: center;
   z-index: 1000;
+  user-select: none; 
   
 }
 
@@ -41,7 +42,8 @@ p {
   height:50px;
   overflow:hidden;
   margin-left: 1rem;
-  z-index: 1000
+  z-index: 1000;
+  user-select: none; 
   
 }
 
@@ -50,27 +52,32 @@ p {
   height:2.81rem;
   margin-bottom: 2.81rem;
   display:inline-block;
-  z-index: 1000
+  z-index: 1000;
+  user-select: none; 
 }
 
 .animation div:first-child {
   animation: text-animation 8s infinite;
-  z-index: 1000
+  z-index: 1000;
+  user-select: none; 
 }
 
 .first div {
   background-color:#36d322;
   border-radius: 25px;
+  user-select: none; 
   /* margin-top: 20px; */
   
 }
 .second div {
   background-color:#CD921E;
   border-radius: 25px;
+  user-select: none; 
 }
 .third div {
   background-color:#c10528;
   border-radius: 25px;
+  user-select: none; 
 }
 
 @keyframes text-animation {
